@@ -40,9 +40,9 @@ export default hopeTheme({
 		comment: {
 		  provider: "Giscus",
 		  repo:"coder-new-web/cdmcs-develop-standard",
-		  repoId:"R_kgDOJHp1rg",
+		  repoId:"R_kgDOJHw80Q",
 		  category:"Announcements",
-		  categoryId:"DIC_kwDOJHp1rs4CUxhM"
+		  categoryId:"Announcements"
 		},
 
 		copyCode: {
