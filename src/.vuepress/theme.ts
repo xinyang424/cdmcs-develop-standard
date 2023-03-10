@@ -42,7 +42,7 @@ export default hopeTheme({
 		  repo:"coder-new-web/cdmcs-develop-standard",
 		  repoId:"R_kgDOJHw80Q",
 		  category:"Announcements",
-		  categoryId:"Announcements"
+		  categoryId:"DIC_kwDOJHw80c4CUxoD"
 		},
 
 		copyCode: {
