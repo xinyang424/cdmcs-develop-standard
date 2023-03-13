@@ -59,3 +59,6 @@ npm run clean
 npm run update-package
 ```
 
+### 参考文档
+
+[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/guide/)
