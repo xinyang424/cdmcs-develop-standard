@@ -1,6 +1,5 @@
 ---
 title: Android Studio
-icon: android
 date: 2023-03-01
 category:
   + 后端工具

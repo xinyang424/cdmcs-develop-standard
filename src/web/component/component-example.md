@@ -1,6 +1,5 @@
 ---
 title: 组件样例
-icon: discover
 date: 2023-03-01
 category:
   + 常用组件

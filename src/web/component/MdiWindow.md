@@ -1,6 +1,5 @@
 ---
 title: MdiWindow使用
-icon: window
 date: 2023-03-01
 category:
   + 常用组件

@@ -1,6 +1,5 @@
 ---
 title: 文件操作
-icon: view
 order: 1
 date: 2023-03-01
 category:

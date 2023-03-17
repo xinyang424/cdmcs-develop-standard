@@ -1,6 +1,5 @@
 ---
 title: 移动开发
-icon: app
 date: 2023-03-01
 category:
   + 常用方法

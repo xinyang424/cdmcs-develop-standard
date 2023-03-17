@@ -1,6 +1,5 @@
 ---
 title: 字体图标库
-icon: write
 date: 2023-03-01
 category:
   + 前端工具
