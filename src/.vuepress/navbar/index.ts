@@ -52,11 +52,5 @@ import { navbar } from "vuepress-theme-hope";
       
     ],
   },
-  //公司官网
-  {
-    text: "公司官网",
-    icon: "any",
-    link: "http://www.cdmcs.com/",
-  },
 ]);
 export default zhNavbar

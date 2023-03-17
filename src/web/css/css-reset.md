@@ -1,6 +1,5 @@
 ---
 title: 格式化布局
-icon: cycle
 date: 2023-03-01
 category:
   + CSS规范

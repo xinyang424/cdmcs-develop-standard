@@ -1,17 +1,9 @@
-<p align="center">
-  <img width="230" src="./src/logo.svg" style="text-align: center;">
-</p>
-<h1 align="center">成都麦柯系统集成有限公司</h1>
-
 <h4 align="center">
 
 [中文简介](README-zh.md) | [English README](README.md)
 
 </h4>
 
-### 公司官网
-
-[点击跳转](http://www.cdmcs.com/index.html)
 
 ### 简介
 

@@ -1,6 +1,5 @@
 ---
 title: Vue语法模板
-icon: generic
 date: 2023-03-01
 category:
   - Vue规范

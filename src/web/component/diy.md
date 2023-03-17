@@ -1,6 +1,5 @@
 ---
 title: 自定义组件
-icon: linter
 date: 2023-03-01
 category:
   + 常用组件

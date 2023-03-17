@@ -1,6 +1,5 @@
 ---
 title: 文件模板
-icon: blog
 date: 2023-03-01
 category:
   + HTML规范

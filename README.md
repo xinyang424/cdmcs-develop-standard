@@ -1,17 +1,9 @@
-<p align="center">
-  <img width="230" src="./src/logo.svg" style="text-align: center;">
-</p>
-<h1 align="center">A develop standard document for cdmcs</h1>
-
 <h4 align="center">
 
 [中文简介](README-zh.md)  |  [English README](README.md)
 
 </h4>
 
-### Company official website
-
-[Chengdu MagCard Systems Co.,Ltd](http://www.cdmcs.com/index.html)
 
 ### Introduce
 
