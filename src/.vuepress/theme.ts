@@ -30,8 +30,9 @@ export default hopeTheme({
 		"/": {
 			navbar: navbar,
 			sidebar: sidebar,
-			footer: "成都麦柯系统集成有限公司",
 			displayFooter: true,
+			footer:"MIT Licensed | Copyright © 2023-present coder-new",
+			copyright:false,
 		},
 	},
 
