@@ -62,8 +62,6 @@ features:
   - title: 更多新内容
     icon: more
     details: 更多内容将在后续开发过程中逐渐完善
-copyright: false
-footer: MIT 开源协议
 ---
 
 以上是关于开发规范的简单介绍
