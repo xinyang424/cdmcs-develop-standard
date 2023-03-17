@@ -63,7 +63,7 @@ features:
     icon: more
     details: 更多内容将在后续开发过程中逐渐完善
 copyright: false
-footer: 版权所有 © 2023-成都麦柯系统集成有限公司—— 开发部：Web前端杨新
+footer: MIT 开源协议
 ---
 
 以上是关于开发规范的简单介绍
