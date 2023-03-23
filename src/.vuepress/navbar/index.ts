@@ -1,6 +1,6 @@
 import { navbar } from "vuepress-theme-hope";
 
- const zhNavbar = navbar([
+const zhNavbar = navbar([
   //首页
   "/",
   //前端
@@ -15,17 +15,17 @@ import { navbar } from "vuepress-theme-hope";
       {
         text: "vscode插件",
         icon: "vscode",
-        link:"/web/tools/vscode-plugins"
+        link: "/web/tools/vscode-plugins",
       },
       {
         text: "字体图标库",
         icon: "format",
-        link:"/web/tools/iconfont"
+        link: "/web/tools/iconfont",
       },
       {
         text: "在线工具",
         icon: "relation",
-        link:"/web/tools/online-tools"
+        link: "/web/tools/online-tools",
       },
     ],
   },
@@ -37,20 +37,24 @@ import { navbar } from "vuepress-theme-hope";
       {
         text: "Android Studio",
         icon: "android",
-        link:"/java/tools/android-studio"
+        link: "/java/tools/android-studio",
       },
       {
         text: "JDK8",
         icon: "java",
-        link:"/java/tools/jdk"
+        link: "/java/tools/jdk",
       },
       {
         text: "Centos",
         icon: "centos",
-        link:"/java/tools/centos"
+        link: "/java/tools/centos",
       },
-      
     ],
   },
+  {
+    text: "公司官网",
+    icon: "any",
+    link: "http://www.cdmcs.com/",
+  },
 ]);
-export default zhNavbar
+export default zhNavbar;

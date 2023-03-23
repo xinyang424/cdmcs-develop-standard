@@ -5,91 +5,91 @@ import navbar from "./navbar/index.js";
 import sidebar from "./sidebar/index.js";
 
 export default hopeTheme({
-	hostname: "https://blog.coder-new.cn/",
-	author: {
-		name: "杨新",
-		url: "https://blog.coder-new.cn/",
-	},
-	iconAssets: "iconfont",
-	logo: "/logo.svg",
-	repo: "coder-new-web/cdmcs-develop-standard",
-	docsDir: "src",
+  hostname: "https://blog.coder-new.cn/",
+  author: {
+    name: "杨新",
+    url: "https://blog.coder-new.cn/",
+  },
+  iconAssets: "iconfont",
+  logo: "/logo.svg",
+  repo: "coder-new-web/cdmcs-develop-standard",
+  docsDir: "src",
 
-	fullscreen: true,
-	print: false,
+  fullscreen: true,
+  print: false,
 
-	themeColor: {
-		blue: "#2196f3",
-		red: "#f26d6d",
-		green: "#3eaf7c",
-		orange: "#fb9b5f",
-	},
-	// hotReload: true,
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+  // hotReload: true,
 
-	locales: {
-		"/": {
-			navbar: navbar,
-			sidebar: sidebar,
-			displayFooter: true,
-			footer:"MIT Licensed | Copyright © 2023-present coder-new",
-			copyright:false,
-		},
-	},
+  locales: {
+    "/": {
+      navbar: navbar,
+      sidebar: sidebar,
+      displayFooter: true,
+      footer: "MIT Licensed | Copyright © 2023-present 成都麦柯系统集成有限公司",
+      copyright: false,
+    },
+  },
 
-	plugins: {
-		//评论功能
-		comment: {
-			provider: "Giscus",
-			repo: "coder-new-web/cdmcs-develop-standard",
-			repoId: "R_kgDOJHw80Q",
-			category: "Announcements",
-			categoryId: "DIC_kwDOJHw80c4CUxoD",
-		},
+  plugins: {
+    //评论功能
+    comment: {
+      provider: "Giscus",
+      repo: "coder-new-web/cdmcs-develop-standard",
+      repoId: "R_kgDOJHw80Q",
+      category: "Announcements",
+      categoryId: "DIC_kwDOJHw80c4CUxoD",
+    },
 
-		copyCode: {
-			showInMobile: true,
-		},
-		mdEnhance: {
-			align: true,
-			attrs: true,
-			chart: true,
-			codetabs: true,
-			container: true,
-			demo: true,
-			echarts: true,
-			figure: true,
-			flowchart: true,
-			gfm: true,
-			imgLazyload: true,
-			imgSize: true,
-			include: true,
-			katex: true,
-			mark: true,
-			mermaid: true,
-			playground: {
-				presets: ["ts", "vue"],
-			},
-			presentation: {
-				plugins: ["highlight", "math", "search", "notes", "zoom"],
-			},
-			stylize: [
-				{
-					matcher: "Recommended",
-					replacer: ({ tag }) => {
-						if (tag === "em")
-							return {
-								tag: "Badge",
-								attrs: { type: "tip" },
-								content: "Recommended",
-							};
-					},
-				},
-			],
-			sub: true,
-			sup: true,
-			tabs: true,
-			vPre: true,
-			vuePlayground: true,
-		},
-	},
+    copyCode: {
+      showInMobile: true,
+    },
+    mdEnhance: {
+      align: true,
+      attrs: true,
+      chart: true,
+      codetabs: true,
+      container: true,
+      demo: true,
+      echarts: true,
+      figure: true,
+      flowchart: true,
+      gfm: true,
+      imgLazyload: true,
+      imgSize: true,
+      include: true,
+      katex: true,
+      mark: true,
+      mermaid: true,
+      playground: {
+        presets: ["ts", "vue"],
+      },
+      presentation: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+      },
+      stylize: [
+        {
+          matcher: "Recommended",
+          replacer: ({ tag }) => {
+            if (tag === "em")
+              return {
+                tag: "Badge",
+                attrs: { type: "tip" },
+                content: "Recommended",
+              };
+          },
+        },
+      ],
+      sub: true,
+      sup: true,
+      tabs: true,
+      vPre: true,
+      vuePlayground: true,
+    },
+  },
 });
